@@ -1,0 +1,518 @@
+    1  apt-get install perl
+    2  sudo apt-get install perl
+    3  cd /media
+    4  ls -lt
+    5  sudo apt-get install gcc
+    6  sudo apt-get install make
+    7  sudo apt-get install pearl
+    8  sudo apt-get install perl
+    9  ls -F
+   10  cd docker
+   11  cd Docker/
+   12  ls -F
+   13  docker run hello-world
+   14  sudo docker
+   15  sudo docker run hello-world
+   16  sudo docker run hello-world > docker-installed.txt
+   17  ls
+   18  nano docker-installed.txt 
+   19  cd 
+   20  cd Desktop/
+   21  ls
+   22  ls -F
+   23  git config --global user.name "Pawel Kaluski"
+   24  git config --global user.email "kalpaw762@gmail.com"
+   25  git config --global core.autocrlf input
+   26  git config --global core.autocrlf true
+   27  git config --global core.autocrlf input
+   28  git config --global core.editor "nano -w"
+   29  git config --list
+   30  git config -h
+   31  cd ~/Desktop/
+   32  mkdir planets
+   33  cd planets/
+   34  git init
+   35  ls
+   36  ls -a
+   37  git status
+   38  ls -a
+   39  mkdir moons
+   40  cd moons
+   41  git init
+   42  ls -a
+   43  git status
+   44  cd ..
+   45  rm -rf moons/.git
+   46  pwd
+   47  cd moons
+   48  git status
+   49  ls -a
+   50  cd ..
+   51  pwd
+   52  nano mars.txt
+   53  cat mars.txt 
+   54  git status
+   55  git add mars.txt 
+   56  git status
+   57  git commit -m "Start notes on Mars as a base"
+   58  git status
+   59  git log
+   60  nano mars.txt 
+   61  cat mars.txt 
+   62  git status
+   63  git diff
+   64  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+   65  git add mars.txt
+   66  git commit -m "Add concerns about effects of Mars' moons on Wolfman"
+   67  nano mars.txt 
+   68  cat mars.txt 
+   69  git diff
+   70  git add mars.txt 
+   71  git diff
+   72  git diff --staged
+   73  git commit -m "Discuss concerns about Mars' climate for Mummy"
+   74  git status
+   75  git log
+   76  git log -1
+   77  git log -2
+   78  git log --oneline
+   79  git log --oneline --all --decorate
+   80  git log --oneline --graph --all --decorate
+   81  history
+   82  git config list
+   83  git config --list
+   84  nano me.txt
+   85  git add me.txt 
+   86  git status
+   87  cd  ..
+   88  mdir bio
+   89  cd bio
+   90  mkdir bio
+   91  ls4
+   92  ls
+   93  cd bio
+   94  mv ~/Desktop/planets/me.txt .
+   95  ls
+   96  git init
+   97  git add me.txt
+   98  git commit -m 'adding bio file'
+   99  git status
+  100  git log --oneline --graph --all --decorate
+  101  cd ..
+  102  ls
+  103  cd ..
+  104  ls
+  105  cd Docker/
+  106  ls
+  107  git config --global user.name "Pawel762"
+  108  git status
+  109  history
+  110  git config --list
+  111  git init
+  112  git add docker-installed.txt 
+  113  rm -rf .git
+  114  ls -a
+  115  mkdir class3-homework
+  116  cd class3-homework/
+  117  git init
+  118  cd ..
+  119  mv docker-installed.txt class3-homework/
+  120  ls
+  121  cd class3-homework/
+  122  ls
+  123  ls -a
+  124  git add docker-installed.txt 
+  125  git commit -m 'Docker instalation confirmation text'
+  126  git log
+  127  cd ..
+  128  git clone https://github.com/Pawel762/class3-homework/
+  129  cd class3-homework/
+  130  ls -al ~/.ssh
+  131  ls -alF ~/.ssh
+  132  ssh-keygen -t rsa -b 4096 -C "kalpaw762@gmail.com"
+  133  eval "$(ssh-agent -s)"
+  134  ssh-add ~/.ssh/id_rsa
+  135  sudo apt-get install xclip
+  136  xclip -sel clip < ~/.ssh/id_rsa.pub
+  137  git log
+  138  ls
+  139  nano docker-installed.txt 
+  140  history
+  141  git config --list
+  142  git add docker-installed.txt 
+  143  git status
+  144  git diff
+  145  git diff --staged
+  146  git commit -m 'testing addition of line to file'
+  147  git status
+  148  git log --oneline --graph --all --decorate
+  149  nano docker.txt
+  150  git add docker.txt 
+  151  dit status
+  152  git status
+  153  git commit -m 'Docker Containe descr'
+  154  mkdir gitclass3-homework
+  155  git clone <class3-homework>
+  156  git clone class3-homework
+  157  ls
+  158  cp docker.txt gitclass3-homework/
+  159  cp docker-installed.txt gitclass3-homework/
+  160  cd gitclass3-homework/
+  161  ls
+  162  cd ..
+  163  pwd
+  164  git clone class3-homework
+  165  mkdir backupfiles
+  166  man mv
+  167  mv class3-homework/*.txt backupfiles/
+  168  cd backupfiles/
+  169  ls
+  170  cd ..
+  171  cd class3-homework/
+  172  ls
+  173  cd..
+  174  man rm
+  175  cd gitclass3-homework/
+  176  rm *txt
+  177  ls
+  178  ls -F
+  179  cd..
+  180  cd ..
+  181  rm gitclass3-homework/
+  182  man rm
+  183  rm -d gitclass3-homework/
+  184  ls
+  185  git init
+  186  cp ~/Docker/backupfiles/*.txt .
+  187  ls
+  188  nano docker.txt 
+  189  git status
+  190  git add docker.txt 
+  191  git status
+  192  git commit -m 'testing commit from terminal'
+  193  ls
+  194  rm *.txt
+  195  ls
+  196  ls -a
+  197  cd 
+  198  pwd
+  199  cd Docker/
+  200  rm -d class3-homework/
+  201  history
+  202  rm -rf class3-homework/.git
+  203  rm -d class3-homework/
+  204  ls
+  205  git clone class3-homework
+  206  mkdir class3-homework
+  207  git clone class3-homework
+  208  history > history02052019.txt
+  209  ls
+  210  cat history02052019.txt 
+  211  git clone git@github.com:cce-bigdataintro-1160/class3-hwk.git
+  212  ls
+  213  cd class3-hwk/
+  214  ls
+  215  nano my_csv_reader.py 
+  216  cd~
+  217  cd ~
+  218  pwd
+  219  ls -F
+  220  cd Downloads/
+  221  ls -F
+  222  cd ..
+  223  find wine
+  224  mkdir 1160Project
+  225  cd 1160Project/
+  226  git clone git@github.com:Pawel762/CEBD1160-Project.git
+  227  ls
+  228  cd CEBD1160-Project/
+  229  ls
+  230  nano wine.data
+  231  cd ~/Docker/class3-hwk
+  232  pwd
+  233  ls
+  234  nano my_csv_reader.py 
+  235  cp my_csv_reader.py ~/1160Project/CEBD1160-Project
+  236  cd ~/1160Project/CEBD1160-Project
+  237  pwd
+  238  ls -Fltr
+  239  nano my_csv_reader.py 
+  240  python3 my_csv_readerpk.py
+  241  ls
+  242  python3 my_csv_readerPK.py
+  243  nano my_csv_readerPK.py
+  244  python3 my_csv_readerPK.py
+  245  nano my_csv_readerPK.py
+  246  python3 my_csv_readerPK.py
+  247  nano my_csv_readerPK.py
+  248  python3 my_csv_readerPK.py
+  249  git status
+  250  git add my_csv_readerPK.py
+  251  git status
+  252  git commit -m 'Updated code to turn data into proper CSV'
+  253  git log
+  254  nano my_csv_readerPK.py
+  255  cd ..
+  256  pwd
+  257  docker version
+  258  sudo docker version
+  259  sudo docker ps
+  260  history
+  261  sudo docker run --hello-world
+  262  sudo docker run hello-world
+  263  sudo docker ps -a
+  264  sudo docker run -p80:80 nginx
+  265  docker ps
+  266  sudo docker ps
+  267  sudo docker ps -a
+  268  sudo docker run -p80:80 nginx:latest
+  269  sudo docker ps -a
+  270  sudo docker ps
+  271  mkdir class4
+  272  cd class4
+  273  nano short-lived.py
+  274  sudo docker run hello-world
+  275  sudo docker run -it ubuntu bash
+  276  sudo docker ps -a
+  277  docker images
+  278  sudo docker images
+  279  ls
+  280  nano short-lived.py 
+  281  python3 short-lived.py 
+  282  nano short-lived.py 
+  283  python3 short-lived.py 
+  284  nano short-lived.py 
+  285  sudo docker exec --help
+  286  python3 short-lived.py 
+  287  nano short-lived.py 
+  288  python3 short-lived.py 
+  289  nano short-lived.py 
+  290  python3 short-lived.py 
+  291  nano short-lived.py 
+  292  python3 short-lived.py 
+  293  nano short-lived.py 
+  294  python3 short-lived.py 
+  295  nano short-lived.py 
+  296  docker images
+  297  sudo docker images
+  298  nano Dockerfile
+  299  nano short-lived.py 
+  300  python3 short-lived.py 
+  301  nano short-lived.py 
+  302  python3 short-lived.py 
+  303  sudo docker -t .
+  304  sudo docker build -t .
+  305  ls
+  306  docker build --help
+  307  sudo docker build
+  308  sudo docker build -t short-lived .
+  309  nano Dockerfile 
+  310  sudo docker build -t short-lived .
+  311  sudo docker run short-lived
+  312  python3
+  313  ls -F
+  314  cd class4
+  315  ls
+  316  python3 short-lived.py
+  317  pycharm
+  318  cd ..
+  319  pwd
+  320  mkdir mario
+  321  cd mario
+  322  sudo docker run -d -p 8600:8080 pengbai/docker-supermario
+  323  cd ..
+  324  docker versiomn
+  325  docker version
+  326  dockerinfo
+  327  docker info
+  328  sudo docker info
+  329  sudo docker ps -a
+  330  docker --h
+  331  sudo docker ps -a
+  332  docker --rm efb13563ffb9
+  333  docker --rm 
+  334  docker efb13563ffb9 --rm 
+  335  docker efb13563ffb9 rm 
+  336  docker rm 
+  337  docker rm efb13563ffb9
+  338  sudo docker rm efb13563ffb9
+  339  sudo docker ps -a
+  340  docker rm efb13563ffb9
+  341  sudo docker rm 5cffd9892b14
+  342  sudo docker stop  5cffd9892b14
+  343  sudo docker stop 5cffd9892b14
+  344  sudo docker ps -a
+  345  docker
+  346  docker stats
+  347  sudo docker stats
+  348  docker status
+  349  docker 
+  350  docker images
+  351  sudo docker images
+  352  dockerd
+  353  sudo dockerd
+  354  sudo apt install docker.io
+  355  sudo dockerd
+  356  sudo apt install docker.io
+  357  docker status
+  358  sudo docker images
+  359  sudo docker ps -a
+  360  sudo docker images
+  361  sudo docker stop  49beaba1c5cc fce289e99eb9
+  362  sudo docker rm 49beaba1c5cc fce289e99eb9
+  363  sudo docker rmi 49beaba1c5cc fce289e99eb9
+  364  sudo docker ps -a
+  365  sudo docker stop cc3150af9a11 d1060f29a36a
+  366  sudo docker ps -a
+  367  sudo docker rm cc3150af9a11 d1060f29a36a
+  368  sudo docker ps -a
+  369  sudo docker stop 44acab58de6b 5cffd9892b14 3ae2be34f356 2e64b565cbc1 1fcdeb9c35981fcdeb9c3598
+  370  sudo docker stop 44acab58de6b 5cffd9892b14 3ae2be34f356 2e64b565cbc1 1fcdeb9c3598 54bbd3de4c9f 0c0851deaa8b
+  371  sudo docker rm 44acab58de6b 5cffd9892b14 3ae2be34f356 2e64b565cbc1 1fcdeb9c3598 54bbd3de4c9f 0c0851deaa8b
+  372  sudo docker ps -a
+  373  pwd
+  374  ls -F
+  375  mksdir class4-homework
+  376  mkdir class4-homework
+  377  cd class4
+  378  ls -F
+  379  nano short-lived.py 
+  380  cd ..
+  381  cd class4-homework/
+  382  ls -F
+  383  nano my_csv_reader_PK.py
+  384  cd ..
+  385  pwd
+  386  cd Docker
+  387  ls
+  388  cd ..
+  389  ls
+  390  ls -Fltr
+  391  cd class4
+  392  ls
+  393  history
+  394  ls
+  395  nano Dockerfile 
+  396  cp Dockerfile ~/class4-homework
+  397  cd ..
+  398  cd class4-homework/
+  399  ls
+  400  docker image
+  401  docker images
+  402  sudo docker images
+  403  nano Dockerfile 
+  404  history
+  405  sudo docker build -t short-lived .
+  406  sudo docker build -t Class4_Hmrk_Container .
+  407  sudo docker build -t Class4-Hmrk-Container .
+  408  sudo docker build -t class4-hmrk-container .
+  409  ls -F
+  410  cd ..
+  411  pwd
+  412  ls
+  413  cd 1160Project/
+  414  ls
+  415  cd CEBD1160-Project/
+  416  ls
+  417  cp wine.data ~/class4-homework
+  418  cd ..
+  419  ls
+  420  cd class4-homework/
+  421  ls
+  422  sudo docker build -t class4-hmrk-container .
+  423  history
+  424  sudo docker run class4-hmrk-container
+  425  python3 my_csv_reader_PK.py 
+  426  nano my_csv_reader_PK.py 
+  427  cd ~
+  428  ls
+  429  cd 1160Project/
+  430  cd CEBD1160-Project/
+  431  ls
+  432  nano my_csv_readerPK.py 
+  433  python3 my_csv_readerPK.py 
+  434  cd ..
+  435  cd class4-homework/
+  436  nano my_csv_reader_PK.py 
+  437  python3
+  438  pip install numpy
+  439  sudo apt install python3-pip
+  440  sudo dpkg --configure -a
+  441  python3 -c "import numpy
+python3 -c "import numpy; print(numpy.__version__)"
+  442  python3 -c
+  443  pip3 install numpy
+  444  sudo pip3 install numpy
+  445  pip install numpy
+  446  sudo apt install pyton-pip
+  447  pip install numpy
+  448  sudo apt install python3-pip
+  449  nano README.md
+  450  nano Dockerfile 
+  451  nano README.md
+  452  python3 my_csv_reader_PK.py 
+  453  nano my_csv_reader_PK.py 
+  454  python3 my_csv_reader_PK.py 
+  455  nano my_csv_reader_PK.py 
+  456  python3 my_csv_reader_PK.py 
+  457  nano my_csv_reader_PK.py 
+  458  python3 my_csv_reader_PK.py 
+  459  wc wine.data
+  460  nano my_csv_reader_PK.py 
+  461  python3 my_csv_reader_PK.py 
+  462  nano my_csv_reader_PK.py 
+  463  python3 my_csv_reader_PK.py 
+  464  nano my_csv_reader_PK.py 
+  465  python3 my_csv_reader_PK.py 
+  466  python3 -c
+  467  python3 -h
+  468  python3 -c "import numpy; print(numpy.__version__)"
+  469  pip3 install numpy
+  470  python3 -c "import numpy; print(numpy.__version__)"
+  471  python3 my_csv_reader_PK.py 
+  472  nano my_csv_reader_PK.py 
+  473  python3 my_csv_reader_PK.py 
+  474  nano my_csv_reader_PK.py 
+  475  python3 my_csv_reader_PK.py 
+  476  nano my_csv_reader_PK.py 
+  477  python3 my_csv_reader_PK.py
+  478  nano my_csv_reader_PK.py 
+  479  python3 my_csv_reader_PK.py
+  480  nano my_csv_reader_PK.py 
+  481  python3 my_csv_reader_PK.py
+  482  nano my_csv_reader_PK.py 
+  483  python3 my_csv_reader_PK.py
+  484  nano my_csv_reader_PK.py 
+  485  python3 my_csv_reader_PK.py
+  486  nano my_csv_reader_PK.py 
+  487  python3 my_csv_reader_PK.py
+  488  nano my_csv_reader_PK.py 
+  489  python3 my_csv_reader_PK.py
+  490  nano my_csv_reader_PK.py 
+  491  python3 my_csv_reader_PK.py
+  492  nano my_csv_reader_PK.py 
+  493  python3 my_csv_reader_PK.py
+  494  sudo docker images
+  495  sudo docker run class4-hmrk-container
+  496  nano Dockerfile 
+  497  sudo docker build -t class4-hmrk-container
+  498  nano readme.md
+  499  ls
+  500  nano README.md 
+  501  sudo docker build -t class4-hmrk-container .
+  502  sudo docker run class4-hmrk-container
+  503  nano Dockerfile 
+  504  historyhistory
+  505  history
+  506  history > hist_10may2019.txt
+  507  nano Dockerfile 
+  508  sudo docker run class4-hmrk-container
+  509  sudo docker build -t class4-hmrk-container .
+  510  nano Dockerfile 
+  511  sudo docker build -t class4-hmrk-container .
+  512  nano Dockerfile 
+  513  sudo docker build -t class4-hmrk-container .
+  514  nano Dockerfile 
+  515  sudo docker build -t class4-hmrk-container .
+  516  sudo docker run class4-hmrk-container
+  517  history > hist_10may2019.txt
